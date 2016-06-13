@@ -4,7 +4,6 @@
 // </copyright>
 // <summary>This is the direction class.</summary>
 //-----------------------------------------------------------------------
-
 namespace CaptainSnakeClient
 {
     using System;
