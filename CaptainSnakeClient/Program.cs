@@ -10,6 +10,7 @@ namespace CaptainSnakeClient
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hallo Welt1");
         }
     }
 }

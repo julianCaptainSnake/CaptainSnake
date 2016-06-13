@@ -7,7 +7,7 @@ namespace CaptainSnakeServer
 {
     public class EnhancedTcpListenerOnClientConnectedEventArgs
     {
-        public int stream
+        public NetworkStream stream
         {
             get
             {
