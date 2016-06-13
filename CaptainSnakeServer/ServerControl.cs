@@ -10,5 +10,10 @@ namespace CaptainSnakeServer
         private int clients;
 
         public event System.EventHandler OnInputReceived;
+
+        public ServerControl()
+        {
+
+        }
     }
 }
