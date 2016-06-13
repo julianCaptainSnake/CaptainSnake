@@ -1,2 +1,5 @@
 C:\Temp\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe.config
+<<<<<<< HEAD
 C:\Temp\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.csprojResolveAssemblyReference.cache
+=======
+>>>>>>> origin/master
