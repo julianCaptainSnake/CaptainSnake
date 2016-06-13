@@ -13,7 +13,7 @@ namespace CaptainSnakeServer
     public class ControlPlayerOnKeyPressedEventArgs
     {
         /// <summary>
-        /// Initializes a new instance of the <see cref="ControlPlayerOnKeyPressedEventArgs"/> class.
+        /// Initializes a new instance of <see cref="ControlPlayerOnKeyPressedEventArgs"/> class.
         /// </summary>
         public ControlPlayerOnKeyPressedEventArgs(InputTypes itype)
         {
