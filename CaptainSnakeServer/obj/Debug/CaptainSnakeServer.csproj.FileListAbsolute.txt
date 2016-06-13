@@ -4,3 +4,9 @@ C:\Temp\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.csprojResol
 =======
 >>>>>>> origin/master
 Z:\Projektwochen1\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe.config
+\\tobias\studenten\98956\Desktop\2. Semester\Projektwoche\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe.config
+\\tobias\studenten\98956\Desktop\2. Semester\Projektwoche\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe
+\\tobias\studenten\98956\Desktop\2. Semester\Projektwoche\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.pdb
+\\tobias\studenten\98956\Desktop\2. Semester\Projektwoche\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.csprojResolveAssemblyReference.cache
+\\tobias\studenten\98956\Desktop\2. Semester\Projektwoche\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.exe
+\\tobias\studenten\98956\Desktop\2. Semester\Projektwoche\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.pdb
