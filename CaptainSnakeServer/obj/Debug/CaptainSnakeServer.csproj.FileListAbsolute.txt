@@ -1,1 +1,2 @@
 C:\Temp\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe.config
+Z:\Documents\Projektwoche\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe.config
