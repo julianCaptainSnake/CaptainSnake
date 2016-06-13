@@ -13,6 +13,6 @@ namespace CaptainSnakeClient
 
     public interface IDrawable
     {
-        void Draw();
+        void Draw(IRenderer renderer);
     }
 }

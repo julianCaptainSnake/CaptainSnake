@@ -12,5 +12,6 @@ namespace CaptainSnakeClient
     using System.Text;
     public interface IMoveable
     {
+        void Move();
     }
 }
