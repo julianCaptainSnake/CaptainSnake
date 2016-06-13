@@ -12,10 +12,20 @@ namespace CaptainSnakeServer
     using System.Threading;
 
     /// <summary>
-    /// The EnhancedTcpListener class.
+    /// Represents the EnhancedTcpListener class.
     /// </summary>
     public class EnhancedTcpListener
     {
+        /// <summary>
+        /// The worker thread arguments.
+        /// </summary>
+        private TcpListenerArguments workerThreadArguments;
+
+        /// <summary>
+        /// The worker thread.
+        /// </summary>
+        private Thread worker;
+
         /// <summary>
         /// This event gets fired when a client connects.
         /// </summary>
@@ -26,8 +36,36 @@ namespace CaptainSnakeServer
         /// </summary>
         public EnhancedTcpListener()
         {
-            Thread listener = new Thread(new ThreadStart(Listener));
-            listener.Start();
+            this.workerThreadArguments = new TcpListenerArguments();
+        }
+
+        /// <summary>
+        /// Starts the thread for tcp listening.
+        /// </summary>
+        public void Start()
+        {
+            if (this.worker != null && this.worker.IsAlive)
+            {
+                return;
+            }
+
+            this.worker = new Thread(new ThreadStart(Listener));
+            this.workerThreadArguments.Exit = false;
+            this.worker.Start();
+        }
+
+        /// <summary>
+        /// Stops the thread for tcp listening.
+        /// </summary>
+        public void Stop()
+        {
+            if (this.worker == null || !this.worker.IsAlive)
+            {
+                return;
+            }
+
+            this.workerThreadArguments.Exit = true;
+            this.worker.Join();
         }
 
         /// <summary>
@@ -39,14 +77,13 @@ namespace CaptainSnakeServer
 
             TcpListener tcpListener = new TcpListener(IPAddress.Any, 80);
             tcpListener.Start();
-
-            do
+            
+            while (!workerThreadArguments.Exit)
             {
                 TcpClient client = tcpListener.AcceptTcpClient();
                 clientConnectedEvent.Stream = client.GetStream();
                 FireOnClientConnected(this, clientConnectedEvent);
             }
-            while (true);
         }
 
         /// <summary>
@@ -59,6 +96,21 @@ namespace CaptainSnakeServer
             if (OnClientConnected != null)
             {
                 OnClientConnected(sender, args);
+            }
+        }
+
+        /// <summary>
+        /// Represents the TcpListenerArguments class.
+        /// </summary>
+        private class TcpListenerArguments
+        {
+            /// <summary>
+            /// Gets or sets whether the listener is stoped or not.
+            /// </summary>
+            public bool Exit
+            {
+                get;
+                set;
             }
         }
     }
