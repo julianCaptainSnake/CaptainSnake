@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Client.cs" />
     <Compile Include="ControlPlayer.cs" />
+    <Compile Include="ControlPlayerOnKeyPressedEventArgs.cs" />
     <Compile Include="EnhancedTcpListener.cs" />
     <Compile Include="EnhancedTcpListenerOnClientConnectedEventArgs.cs" />
     <Compile Include="InputTypes.cs" />
