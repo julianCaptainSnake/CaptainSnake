@@ -10,8 +10,6 @@ namespace CaptainSnakeServer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Nix geht");
-
         }
     }
 }
