@@ -8,3 +8,5 @@ C:\Temp\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.exe
 C:\Temp\CaptainSnake\CaptainSnakeServer\bin\Debug\CaptainSnakeServer.pdb
 C:\Temp\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.exe
 C:\Temp\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.pdb
+Z:\Projektwochen1\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.exe
+Z:\Projektwochen1\CaptainSnake\CaptainSnakeServer\obj\Debug\CaptainSnakeServer.pdb
