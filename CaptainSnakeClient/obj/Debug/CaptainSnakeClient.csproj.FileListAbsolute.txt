@@ -1,0 +1,6 @@
+C:\Temp\CaptainSnake\CaptainSnakeClient\bin\Debug\CaptainSnakeClient.exe.config
+C:\Temp\CaptainSnake\CaptainSnakeClient\bin\Debug\CaptainSnakeClient.exe
+C:\Temp\CaptainSnake\CaptainSnakeClient\bin\Debug\CaptainSnakeClient.pdb
+C:\Temp\CaptainSnake\CaptainSnakeClient\obj\Debug\CaptainSnakeClient.csprojResolveAssemblyReference.cache
+C:\Temp\CaptainSnake\CaptainSnakeClient\obj\Debug\CaptainSnakeClient.exe
+C:\Temp\CaptainSnake\CaptainSnakeClient\obj\Debug\CaptainSnakeClient.pdb

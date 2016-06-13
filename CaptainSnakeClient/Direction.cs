@@ -7,6 +7,13 @@ namespace CaptainSnakeClient
 {
     public enum Direction
     {
-        Up
+        Up,
+        Down,
+        Left,
+        Right,
+        UpRight,
+        UpLeft,
+        DownRight,
+        DownLeft
     }
 }

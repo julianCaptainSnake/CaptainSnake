@@ -1,2 +1,60 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ClassDiagram /> 
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="CaptainSnakeServer.Program" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.ControlPlayer">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlPlayer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.Client">
+    <Position X="5.5" Y="0.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Client.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.ServerControl">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.ServerControlOnInputReceivedEventArgs">
+    <Position X="8.75" Y="0.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ServerControlOnInputReceivedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.EnhancedTcpListener">
+    <Position X="5.25" Y="2.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnhancedTcpListener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.EnhancedTcpListenerOnClientConnectedEventArgs">
+    <Position X="9" Y="2.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>EnhancedTcpListenerOnClientConnectedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="CaptainSnakeServer.InputTypes">
+    <Position X="0.5" Y="5.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAABAAAAAAAAAAAAEAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>InputTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

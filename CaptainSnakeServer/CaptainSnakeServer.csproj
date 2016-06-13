@@ -43,11 +43,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Client.cs" />
+    <Compile Include="ControlPlayer.cs" />
+    <Compile Include="EnhancedTcpListener.cs" />
+    <Compile Include="EnhancedTcpListenerOnClientConnectedEventArgs.cs" />
+    <Compile Include="InputTypes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServerControl.cs" />
+    <Compile Include="ServerControlOnInputReceivedEventArgs.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="ClassDiagramServer.cd" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
