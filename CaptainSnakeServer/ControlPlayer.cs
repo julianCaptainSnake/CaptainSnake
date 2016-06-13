@@ -4,14 +4,12 @@
 // </copyright>
 // <summary>Represents the ControlPlayer class.</summary>
 //-----------------------------------------------------------------------
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace CaptainSnakeServer
 {
     using System;
+    using System.Collections.Generic;
+    using System.Linq;
+    using System.Text;
     using System.Threading;
 
     /// <summary>
