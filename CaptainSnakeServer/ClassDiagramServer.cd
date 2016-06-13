@@ -57,10 +57,17 @@
     </TypeIdentifier>
   </Class>
   <Class Name="CaptainSnakeServer.EnhancedTcpListenerOnClientConnectedEventArgs">
-    <Position X="9" Y="2.75" Width="3" />
+    <Position X="8.75" Y="1.5" Width="3" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA=</HashCode>
       <FileName>EnhancedTcpListenerOnClientConnectedEventArgs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CaptainSnakeServer.ControlPlayerOnKeyPressedEventArgs">
+    <Position X="8.75" Y="3.5" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ControlPlayerOnKeyPressedEventArgs.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Enum Name="CaptainSnakeServer.InputTypes">
